@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="styelsheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Professional README Generator</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>Professional README Generator</h1>
+
+            <section class="Descr"><h2>Description:</h2>
+                ${Description}
+            </section>
+
+            <section class="ToC"><h2>Table of Contents:</h2>
+                <ul>
+                    <li><a href=".Descr">Description</a></li>
+                    <li><a href=".Install">Installation</a></li>
+                    <li><a href=".U">Usage</a></li>
+                    <li><a href=".L">License</a></li>
+                    <li><a href=".Contr">Contributing</a></li>
+                    <li><a href=".T">Tests</a></li>
+                    <li><a href=".Qs">Questions</a></li>
+                    <li><a href=".contact-me">Contact Me</a></li>
+                </ul>
+                
+                <section class="Install"><h2>Installation:</h2>
+                        ${Installation}
+                </section>
+
+            <section class="U"><h2>Usage:</h2>
+                ${Usage}
+            </section>
+
+                <section class="L"><h2>License:</h2>
+                    ${License:}
+                </section>
+
+                <section class="Contr"><h2>Contributing:</h2>
+                    ${Contributing}
+                </section>
+
+                <section class="T"><h2>Tests:</h2>
+                    ${Tests}
+                </section>
+
+                <section class="Qs"><h2>Questions:</h2>
+                    ${Questions}
+                    <ul class="contact-me">
+                        <li class="list1">What is your GitHub username? ${GitHub}
+                            <a href="http://www.github.com/JacquieSue">GitHub</a>
+                        </li>
+                        <li class="list2">What is your email? ${email}
+                            <a href="mailto:">jspulliam87@yahoo.com</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+</body>
+
+</html>
