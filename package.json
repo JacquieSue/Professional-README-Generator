@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.1.4"
+  },
+  "name": "professional-readme-generator",
+  "description": "<!-- // TODO: Include packages needed for this application --> const inquirer = require('inquirer'); const fs = require('fs');",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacquieSue/Professional-README-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacquieSue/Professional-README-Generator/issues"
+  },
+  "homepage": "https://github.com/JacquieSue/Professional-README-Generator#readme"
+}
