@@ -18,6 +18,7 @@
 <!-- ${Installation} -->
 
 ## Usage
+![Screenshot](assets/images/screenshot.png)
 <!-- ${Usage} -->
 
 ## License
